@@ -1,0 +1,29 @@
+Hecho por: jeanp_251
+%%----------------------------------------------------
+Para correr el Programa se debe ejecutar el archivo 'main_RigSist_R01.m'
+%%----------------------------------------------------
+IMPORTANTE:
+
+Se deben tener las siguientes funciones y planilla de Excel en la misma carpeta para que pueda funcionar
+
+'local_siffness_R01.m'
+'glob_stiff.m'
+'stiff_red.m'
+
+'INPUT.xlsx' (NO CAMBIAR DE NOMBRE)
+%%----------------------------------------------------
+CONSIDERACIONES:
+
+- Para esta Tarea fue considerado una matriz de Rigidez Local para todas las barras de 6x6 con el siguiente orden:
+
+gdl1 = def axial nudo inicial
+gdl2 = def cortante nudo inicial
+gdl3 = def rot 'ANTIHORARIO' nudo inicial
+gdl4 = def axial nudo final
+gdl5 = def cortante nudo final
+gdl6 = def rot 'ANTIHORARIO' nudo final
+
+Esta matriz está en el SLIDE 251 de las presentaciones de clase.
+
+- Las cargas en la Hoja 'NUDOS' para cada nudo se consideraron en sentido de los GDL globales.
+%%----------------------------------------------------
